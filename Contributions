@@ -1,0 +1,7 @@
+Data Analysis: Explored gender-related education trends across 25 Cambodian provinces using government data.
+
+ML Model: Built a clustering model to categorize provinces by level of gender disparity (e.g., high, medium, low).
+
+Prediction & Insight: Predicted key factors (like % female teachers, number of schools) influencing gender balance.
+
+Policy Recommendation: Identified provinces needing the most support to achieve SDG Goal 4 (Quality Education).
