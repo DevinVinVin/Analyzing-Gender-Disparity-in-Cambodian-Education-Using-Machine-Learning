@@ -36,8 +36,8 @@ Despite efforts to improve education, a lack of analytical tools makes it diffic
 
 - **Type**: Secondary Dataset  
 - **File**: `cambodia_education_2020_2021.csv`  
-- **Source**: Public/open government data  
-- **Description**: Includes number of schools, students, teachers, infrastructure, and geographic data by province.
+- **Source**: Kaggle/Datasets  
+- **Description**: Includes 'Province', 'Schools', 'Total Enrolment', 'Girls Enrolled', 'Total Repeaters', 'Girls Repeating', 'Total Teachers', 'Female Teachers
 
 ---
 
@@ -46,7 +46,7 @@ Despite efforts to improve education, a lack of analytical tools makes it diffic
 1. Load and clean dataset using `pandas`.
 2. Explore and visualize data.
 3. Handle missing values and normalize features.
-4. Feature engineering (if required).
+4. Feature engineering.
 5. Train/test ML models.
 6. Evaluate using accuracy and other metrics.
 
@@ -54,9 +54,7 @@ Despite efforts to improve education, a lack of analytical tools makes it diffic
 
 ## 🤖 Machine Learning Models Used
 
-- Random Forest Classifier  
-- Decision Tree  
-- Logistic Regression (if applicable)
+- Linear Regression
 
 ### Why These Models?
 
@@ -68,10 +66,10 @@ Despite efforts to improve education, a lack of analytical tools makes it diffic
 
 ## 📏 Evaluation Techniques
 
-- Accuracy Score  
-- Confusion Matrix  
-- Cross-validation  
-- Precision, Recall, F1-Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+- Accuracy
 
 ---
 
@@ -79,17 +77,13 @@ Despite efforts to improve education, a lack of analytical tools makes it diffic
 
 > To be updated based on final evaluation.
 
-- Random Forest: ~87%  
-- Decision Tree: ~82%
+- Linear Regression: 98.43 %
 
 ---
 
 ## ⚙️ Hyperparameter Tuning
 
-- `GridSearchCV` applied for:
-  - `n_estimators`
-  - `max_depth`
-  - `min_samples_split`
+- Hyperparameter isn't used in this project.
 
 ---
 
