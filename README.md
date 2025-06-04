@@ -117,5 +117,3 @@ Final report includes:
 
 ---
 
-## 📁 Repository Structure (Suggested)
-
