@@ -1,0 +1,7 @@
+Methodology
+Load and clean dataset using pandas.
+Explore and visualize data.
+Handle missing values and normalize features.
+Feature engineering (if required).
+Train/test ML models.
+Evaluate using accuracy and other metrics.
